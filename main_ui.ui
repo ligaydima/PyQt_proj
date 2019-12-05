@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>804</width>
+                <height>585</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>MainWindow</string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <widget class="QPushButton" name="addButton">
+                <property name="geometry">
+                    <rect>
+                        <x>580</x>
+                        <y>20</y>
+                        <width>193</width>
+                        <height>32</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>добавить напоминание</string>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton">
+                <property name="geometry">
+                    <rect>
+                        <x>360</x>
+                        <y>20</y>
+                        <width>193</width>
+                        <height>32</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>показать</string>
+                </property>
+            </widget>
+            <widget class="QComboBox" name="comboBox">
+                <property name="geometry">
+                    <rect>
+                        <x>60</x>
+                        <y>20</y>
+                        <width>287</width>
+                        <height>26</height>
+                    </rect>
+                </property>
+            </widget>
+            <widget class="QWidget" name="verticalLayoutWidget">
+                <property name="geometry">
+                    <rect>
+                        <x>110</x>
+                        <y>80</y>
+                        <width>591</width>
+                        <height>451</height>
+                    </rect>
+                </property>
+                <layout class="QVBoxLayout" name="notifications_layout"/>
+            </widget>
+            <widget class="QPushButton" name="delete_missed_btn">
+                <property name="geometry">
+                    <rect>
+                        <x>360</x>
+                        <y>50</y>
+                        <width>331</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>удалить все пропущенные напоминания</string>
+                </property>
+            </widget>
+        </widget>
+        <widget class="QMenuBar" name="menubar">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>804</width>
+                    <height>22</height>
+                </rect>
+            </property>
+        </widget>
+        <widget class="QStatusBar" name="statusbar"/>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
